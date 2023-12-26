@@ -14,6 +14,8 @@ namespace WTDCLI.Commands
             SystemInfo.RegisterSystemInfo();
             Help.RegisterHelp();
             WhoAmI.RegisterWhoAmI();
+
+            FileSystem.RegisterFS.RegisterAll();
         }
 
         public static void RunCommand(string command)

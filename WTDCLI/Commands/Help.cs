@@ -51,7 +51,7 @@ namespace WTDCLI.Commands
                                         found = true;
                                         if (c.help == null)
                                         {
-                                            Console.WriteLine($"No help provided for command `{c.command}` (Alias used: `{cmd})");
+                                            Console.WriteLine($"No help provided for command `{c.command}` (Alias used: `{cmd}`)");
                                             return;
                                         }
                                         else
